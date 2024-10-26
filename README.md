@@ -22,26 +22,31 @@ A Python-based implementation that augments Language Models with persistent sema
 
 ## 📋 Prerequisites
 
-```bash
-pip install sentence-transformers nltk requests
-```
+- sentence-transformers
+- nltk
+- requests
+- google-generativeai
+
 
 ## 🚀 Quick Start
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/llm-mem.git
-cd llm-mem
+git clone https://github.com/Abhigyan126/LLM-MEM.git
+cd LLM-MEM
 ```
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install sentence-transformers nltk requests google-generativeai
 ```
-
-3. Run the main script:
+3. create .env file
 ```bash
-python mem.py
+   key = your_llm_key
+   ```
+4. Run the main script:
+```bash
+python main.py
 ```
 
 ## 💡 How It Works
